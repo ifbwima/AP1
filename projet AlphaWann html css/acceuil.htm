@@ -1,0 +1,57 @@
+<html>
+<head>
+	<meta content="Enzo Greneche" name="Author">
+	<link href="css.css" id="css" rel="stylesheet" type="text/css">
+	<title>ALPHA WANN</title>
+	<script type="text/javascript">
+		function fond() {
+			document.getElementById("css").href="css.css";
+		};
+	</script>
+		<script type="text/javascript">
+		function fond2() {
+			document.getElementById("css").href="css2.css";
+		};
+	</script>
+</head>
+<body>
+	<div class="fond">	<!--on applique le fond d'ecran-->
+		<div class="pol">	<!--on applique la police-->
+			<center>
+				<p class="titre">Alpha Wann</p>
+				<p>catégorie:</p>
+				<table class="table">	<!--debut du tableau-->
+					<tr>
+						<td>
+							<a class="link" href="biographie.htm">Biographie</a>
+						</td>
+						<td>
+							<a class="link" href="discographie.htm">Discographie</a>
+						</td>
+						<td>
+							<a class="link" href="dondada.htm">Don Dada (marque/label)</a>
+						</td>
+						<td>
+							<a class="link" href="contact.htm">nous contacter</a>
+						</td>
+					</tr>
+				</table>	<!--fin du tableau-->
+				
+				<div class="non">
+				<table>
+					<tr>
+						<td>
+							<p class="pol"><a onclick="fond()">style 1</a></p>
+						</td>
+						<td>
+							<p class="pol"><a onclick="fond2()">style 2</a></p>
+						</td>
+					</tr>
+				</table>
+				</div>
+						
+			</center>
+		</div>
+	</div>
+</body>
+</html>

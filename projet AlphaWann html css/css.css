@@ -1,0 +1,144 @@
+/*les fond*/
+
+.fond {
+	background-image: url("img/Alpha-Wann-Melo-Top (1).jpg");
+	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
+	background size: cover;
+}
+.fond2 {
+	background-image: url("img/Alpha-Wann-Punchlines.jpg");
+	background-position: center;
+	height: 100%;
+	background-repeat: no-repeat;
+	background size: cover;
+}
+
+
+
+/* la personalisation des tableaux*/
+
+.table {
+	border-collapse: collapse;
+	border: 1px solid white;
+	width: 70%;
+}
+th, td {
+	padding: 10px;
+	border: 1px solid white;
+	background-color: rgba(237, 237, 237, 0.4);
+}
+
+
+
+/* les styles de textes*/
+
+.pol {
+	/*police blanche*/
+	font-family: arial, "sans serif";
+	color: #FFFFFF;
+}
+.pol2 {
+	/*police noir*/
+	font-family: arial, "sans serif";
+	color: #000000;
+}
+a.link {
+	/*lien apparence texte soulignée*/
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+a.link2 {
+	/*lien apparence texte soulignée*/
+	text-decoration: underline;
+	color: #000000;
+}
+.titre {
+	/*texte plus gros*/
+	position: relative;
+	top: 15px;
+	font-size: 2.5em;
+}
+.soul {
+	/*texte souligné*/
+	text-decoration: underline;
+}
+.merci {
+	font-size: 4em;
+	color: #000000;
+	font-family: comic sans ms;
+
+}	
+
+
+
+/*ordonner des elements*/
+
+.coltiers {
+	/*elements ranger sur une partie de la page*/
+	float: left;
+	width: 30%;
+	margin-left: 10em;
+	margin-right: 0em;
+	padding: 1em;
+}
+.droite {
+	/*position personalisé*/
+	position: relative;
+	left: 420px;
+	bottom: 418px;
+}
+.pos {
+	/*position personalisé*/
+	position: relative;
+	bottom: 420px;
+}
+.oui {
+	/*position personalisé*/
+	position: relative;
+	bottom: 140px;
+	left: 350px;
+}
+.non {
+	/*position personalisé*/
+	position: relative;
+	bottom: -450px;
+}
+
+
+
+/*personalisation de "nous contacter"*/
+
+.cartouche {
+	/*paragraphe encadré*/
+	text-align: left;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	background-color: #1F6A51;
+	border: 1px solid #000000;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-right: 1100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.cartouche1 {
+	/*paragraphe encadré*/
+	text-align: left;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	background-color: #278264;
+	border: 1px solid #000000;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right: 762px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
